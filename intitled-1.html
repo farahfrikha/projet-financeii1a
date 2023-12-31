@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="body{.css">
+       <script src="function calcul1(a,b,c,d,e,f,g){.js"></script>
+       <title>Escompte</title>
+    </head>
+    <body>
+       <div class="container">
+         <div ><h1>Escompte</h1></div>
+       <table >
+        <tr>
+            <th><h2>Date D'operation</h2></th>
+            <td><input type="date" id="nbr1"></td>
+        </tr>
+
+        <tr>
+            <th><h2>Taux D'Escompte</h2></th>
+            <td><input type="number" placeholder="50%" id="taux1" ></td>
+        </tr>
+
+         <tr>
+            <th><h2>Valeurs Nominale</h2></th>
+            <td><input type="number" placeholder="inserez le montant ici" id="val1" ></td>
+        </tr>
+       
+        <tr>
+            <th><h2>Date D'Echeance</h2></th>
+            <td><input type="date" id="nbr2"></td>
+        </tr>
+        
+        <tr>
+           
+            <td><button onclick="calcul1('val1','taux1','nbr1','nbr2','es1','sum1','act1')">Effectuer L'operation</button></td>
+           </tr>
+       
+        <tr>
+            <td><h3>Nombres des Jours</h3></td>
+            <td><h3>Interets Escomptes</h3></td>
+            <td><h3>Valeurs Actuelle</h3></td>
+        </tr>
+        <tr>
+            <td><p id="sum1"></p></td>
+            <td><p id="es1"></p></td>
+            <td><p id="act1"></p></td>
+        </tr>
+          
+
+       </table> 
+      </div>
+    </body>
+</html>
